@@ -39,3 +39,5 @@ socket.on('receive', data=>{
 socket.on('left', name=>{
     append(`${name}: Left the chat`,'received')
 });
+
+
